@@ -1,0 +1,29 @@
+.reserve-ticket-container {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.reserve-ticket-container .pay-button {
+  margin-top: 20px;
+  color: white;
+  background-color: #4277a1;
+}
+
+.reserve-ticket-container .rc-slider {
+  width: 66%;
+}
+
+.reserve-ticket-container .rc-slider .rc-slider-handle {
+  border-color: #172540;
+}
+
+.reserve-ticket-container .rc-slider .rc-slider-handle:active {
+  box-shadow: 0 0 5px #172540
+}
+
+.reserve-ticket-container .rc-slider .rc-slider-track {
+  background-color: #4277A1
+}

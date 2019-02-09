@@ -1,0 +1,44 @@
+.reservation-details-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.reservation-details-container .chart-container {
+  height: 250px;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.reservation-details-container > button {
+    margin-top: 20px !important;
+}
+
+.reservation-details-container .pay-button {
+    color: white;
+    background-color: #4277A1
+}
+
+.reservation-details-container .change-button {
+    color: white;
+    background-color: #172540
+}
+
+.reservation-details-container .rc-slider {
+    width: 66%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reservation-details-container .rc-slider .rc-slider-handle {
+    border-color: #172540;
+}
+
+.reservation-details-container .rc-slider .rc-slider-handle:active {
+    box-shadow: 0 0 5px #172540
+}
+
+.reservation-details-container .rc-slider .rc-slider-track {
+    background-color: #4277A1
+}

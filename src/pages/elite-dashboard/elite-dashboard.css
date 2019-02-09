@@ -1,0 +1,22 @@
+.elite-container {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.elite-description {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.elite-container > button[disabled] {
+  margin-top: 25px;
+}
+
+.elite-description > ul {
+  padding-inline-start: 20px !important;
+}

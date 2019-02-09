@@ -1,0 +1,84 @@
+.itinerary-container {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.itinerary-container .passenger-cards {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.itinerary-container .passenger-cards .passenger-card-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.itinerary-container
+  .passenger-cards
+  .passenger-card-content
+  .ui.labeled.input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.itinerary-container .flight-details-content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.itinerary-container .flight-details-content .labels {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.itinerary-container .flight-details-content .values {
+  padding-left: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.itinerary-container .fare {
+  border-radius: 0.28571429rem !important;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  transition: box-shadow 0.1s ease, transform 0.1s ease,
+    -webkit-transform 0.1s ease;
+}
+
+.itinerary-container .payment-button-array {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.itinerary-container .payment-button-array .pay-in-full {
+  color: white;
+  background-color: #4277a1;
+  margin-bottom: 8px;
+}
+
+.itinerary-container .payment-button-array .reserve-ticket {
+  color: white;
+  background-color: #172540;
+  margin-bottom: 8px;
+}
+.itinerary-container .payment-button-array .pay-later {
+  color: white;
+  background-color: #172540;
+}

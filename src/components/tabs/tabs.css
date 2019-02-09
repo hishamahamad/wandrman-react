@@ -1,0 +1,10 @@
+.menu-tabs-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.menu-tabs-bar .ui.bottom.tabular.menu .item {
+    display: inline;
+    text-align: center;
+}

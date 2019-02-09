@@ -1,0 +1,12 @@
+.success-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-container .reservation-button {
+  color: white;
+  background-color: #172540;
+  margin-top: 20px;
+}

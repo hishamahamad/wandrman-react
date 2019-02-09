@@ -1,0 +1,11 @@
+.reservations-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.reservation-cards {
+    margin-top: 25px !important;
+}

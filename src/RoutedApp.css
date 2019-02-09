@@ -1,0 +1,18 @@
+.container {
+  height: 100%;
+}
+
+.container .navbar {
+  border-bottom: 0 !important;
+  border-radius: 0 !important;
+}
+
+.container .navbar .logo::before {
+  width: 0 !important;
+}
+
+.container .ui.segment.pushable {
+  margin-top: 0;
+  border-radius: 0;
+  border-top: 0;
+}

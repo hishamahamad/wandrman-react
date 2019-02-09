@@ -1,0 +1,26 @@
+.flights-list-container {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flights-list-container .flights-list-cards {
+  margin-top: 25px;
+}
+
+.flights-list-container .flight-card-content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flights-list-container .flight-card-content h4 {
+  margin: 0;
+}
+
+.flights-list-container .content::after {
+    display: none !important;
+}

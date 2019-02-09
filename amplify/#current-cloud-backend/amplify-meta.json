@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "wandrmanreact-20190108231314-authRole",
+            "UnauthRoleArn": "arn:aws:iam::097616920257:role/wandrmanreact-20190108231314-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::097616920257:role/wandrmanreact-20190108231314-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "wandrmanreact-20190108231314-deployment",
+            "UnauthRoleName": "wandrmanreact-20190108231314-unauthRole",
+            "StackName": "wandrmanreact-20190108231314",
+            "StackId": "arn:aws:cloudformation:us-east-2:097616920257:stack/wandrmanreact-20190108231314/e267f410-136c-11e9-8540-02ba814fbd16"
+        }
+    }
+}

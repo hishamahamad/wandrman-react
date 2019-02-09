@@ -1,0 +1,20 @@
+.search-flights-container .SingleDatePickerInput__withBorder {
+    border: 0 !important;
+}
+
+.search-flights-container .ui.form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.search-flights-container .ui.form .field,
+.search-flights-container .ui.form input {
+    width: 300px !important;
+}
+
+.search-flights-container .ui.primary.button {
+    margin-top: 25px;
+}
